@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header content-section">
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__links-list-item_no-bullit header__link_active">
             главная
           </li>
-          <li class="header__links-list-item header__link">посмотреть лоты</li>
-          <li class="header__links-list-item header__link">об аукционе</li>
+          <li class="header__links-list-item header__link link__underline">посмотреть лоты</li>
+          <li class="header__links-list-item header__link link__underline">об аукционе</li>
         </ul>
       </nav>
       <a href="" class="header__logo"
@@ -26,30 +27,48 @@
           alt="logo"
           class="header__logo-image"
       /></a>
-      <address class="address">
-        <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a
+      <address class="address header__adress">
+        <a href="tel:+99995555555" class="link__underline">+9 999 555 5555</a
         ><br />
-        <a href="info@sobaka.ge" class="header__link">info@sobaka.ge</a><br />
+        <a href="info@sobaka.ge" class="link__underline">info@sobaka.ge</a><br />
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
+    <!-- end header -->
 
-    <main class="content-section"></main>
+    <!-- Main -->
+    <main class="content-section">
+      <section class="cover">
+        <div class="overlay">
+        </div>
+        <h1 class="cover__title">
+          <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
+          <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <a href="" class="bet-button">Сделать ставку</a>
+        </div>
+      </section>
+    </main>
+    <!-- end main -->
 
+    <!-- Footer -->
     <footer class="footer content-section">
       <address class="address">
-        <a href="tel:+99995555555" class="header__link_active"
+        <a href="tel:+99995555555" class="link__underline"
           >+9 999 555 5555</a
         ><br />
-        <a href="info@sobaka.ge" class="header__link_active">info@sobaka.ge</a
+        <a href="info@sobaka.ge" class="link__underline">info@sobaka.ge</a
         ><br />
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__links-list-item footer__link_active">главная</li>
-          <li class="footer__links-list-item">посмотреть лоты</li>
-          <li class="footer__links-list-item">об аукционе</li>
+          <li class="footer__links-list-item link__underline">посмотреть лоты</li>
+          <li class="footer__links-list-item link__underline">об аукционе</li>
         </ul>
       </nav>
       <ul class="footer__social-list">
@@ -76,5 +95,6 @@
         </li>
       </ul>
     </footer>
+    <!-- end footer -->
   </body>
 </html>

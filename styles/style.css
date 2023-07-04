@@ -16,7 +16,7 @@
 .header__menu {
   box-sizing: border-box;
   display: flex;
-  margin-top: 43px;
+  margin-top: 41px;
   margin-right: 0px;
   margin-bottom: 39px;
 }
@@ -26,24 +26,43 @@
   white-space: nowrap;
   flex-direction: row;
   font-size: 18px;
-  gap: 32px;
+  gap: 13px;
+  text-align: center;
+  list-style-position: inside;
+  position: relative;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.header__links-list-item{
+.custom-bullet {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 0;
+  margin-top: 5.5px;
 }
 
-.link__underline{
+.custom-bullet-text {
+  margin-left: 20px;
+}
+
+.header__links-list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link__underline {
   text-decoration: underline;
   text-underline-offset: 5px;
-}
-
-.header__link {
-  list-style: circle;
-  color: #000;
 }
 
 .header__link_active {
@@ -51,10 +70,14 @@
   text-decoration: none;
 }
 
+.header__logo{
+  margin: 0px 355px 0px 209px;
+
+}
+
 .header__logo-image {
   height: 105px;
   width: 148px;
-  margin: 0px 355px 0px 209px;
 }
 
 .address {
@@ -64,7 +87,7 @@
   line-height: 24.3px;
 }
 
-.header__adress{
+.header__adress {
   margin: 5px 0px 7px 1px;
 }
 
@@ -101,7 +124,7 @@
   z-index: 2;
 }
 
-.aligned-text{
+.aligned-text {
   display: block;
   line-height: 115px;
 }
@@ -116,27 +139,26 @@
   line-height: 100px;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
   letter-spacing: 60px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0px;
-  
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   position: relative;
-  color: #FFF;
-text-align: center;
-font-size: 22px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-text-transform: uppercase;
-z-index: 3;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  z-index: 3;
 }
 
 .bet-button {
@@ -145,7 +167,7 @@ z-index: 3;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
 .footer {
@@ -167,7 +189,6 @@ z-index: 3;
   list-style: none;
   display: flex;
   flex-direction: column;
-  
 }
 
 .footer__links-list-item {

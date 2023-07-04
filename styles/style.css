@@ -70,9 +70,8 @@
   text-decoration: none;
 }
 
-.header__logo{
+.header__logo {
   margin: 0px 355px 0px 209px;
-
 }
 
 .header__logo-image {
@@ -163,18 +162,16 @@
   margin-top: 135px;
 }
 
-.cover__description-text{
+.cover__description-text {
   margin-right: 78px;
   word-spacing: 17px;
-
 }
 
-.word-spacing-extended{
+.word-spacing-extended {
   word-spacing: 23px;
 }
 
 .bet-button {
-  border: none;
   color: white;
   padding: 12px 32px 12px 32px;
   text-align: center;

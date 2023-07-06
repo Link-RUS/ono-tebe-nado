@@ -3,11 +3,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 92px 59px 96px 51px;
   height: 293px;
-  background-color: #ffffff;
 }
 
 .header__menu {
-  box-sizing: border-box;
   display: flex;
   margin-top: 43px;
   margin-right: 0px;
@@ -19,7 +17,7 @@
   white-space: nowrap;
   flex-direction: row;
   font-size: 18px;
-  gap: 33px;
+  gap: 32px;
   text-align: center;
 }
 
@@ -44,7 +42,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 0px 355px 0px auto; */
 }
 
 .header__logo-image {
@@ -63,7 +60,7 @@
   font-style: normal;
   color: #000;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 140%;
   width: 240px;
 }
 
@@ -71,14 +68,14 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px -17px;
+  /* background-position: 0px -17px; */
   height: 757px;
   position: relative;
   z-index: 0;
 }
 
 .overlay {
-  opacity: 0.6000000238418579;
+  opacity: 0.6;
   background: #000;
   position: absolute;
   height: 100%;
@@ -91,7 +88,6 @@
   position: relative;
   color: #fff;
   font-size: 100px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   line-height: 115%;
@@ -102,17 +98,17 @@
 
 .aligned-text {
   display: block;
-  line-height: 115px;
+  line-height: 115%;
 }
 
 .aligned-text_center {
   text-align: center;
-  line-height: 140px;
+  line-height: 140%;
 }
 
 .aligned-text_right {
   text-align: right;
-  line-height: 100px;
+  line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -130,10 +126,8 @@
   position: relative;
   color: #fff;
   font-size: 22px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
   text-transform: uppercase;
   z-index: 3;
   margin-top: 135px;
@@ -149,8 +143,7 @@
 }
 
 .bet-button {
-  color: white;
-  padding: 12px 32px 12px 32px;
+  color: #fff;
   text-align: center;
   text-decoration: none;
   border: 1px solid #fff;
@@ -165,7 +158,6 @@
 
 .lots__heading {
   font-size: 40px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -186,7 +178,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 430px;
   min-height: 450px;
   flex-grow: 1;
   position: relative;
@@ -227,7 +218,6 @@
 
 .card__title {
   font-size: 22px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
@@ -240,7 +230,6 @@
   display: grid;
   align-items: end;
   font-size: 20px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -251,7 +240,6 @@
   text-underline-offset: 5px;
   display: block;
   font-size: 20px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -273,7 +261,7 @@
 .about__logo {
   display: flex;
   border-radius: 120px;
-  border: 1px solid black;
+  border: 1px solid #000;
   background-color: #000;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -292,8 +280,8 @@
 .about__title {
   display: flex;
   justify-content: left;
-  /* margin: 100px auto 100px 0px; */
-  align-items: center;
+  margin: 100px auto 100px -5px;
+  /* align-items: center; */
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   color: #000;
@@ -309,19 +297,17 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 25px;
-  margin-top: 8px;
+  margin: 8px auto 0px -5px;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   font-size: 20px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 0px 50px 90px 50px;
 }
 
@@ -331,7 +317,7 @@
   flex-direction: row;
   font-size: 18px;
   text-align: center;
-  margin: 0px 356px;
+  justify-content: center;
 }
 
 .footer__menu-list {
@@ -341,7 +327,8 @@
 }
 
 .footer__links-list-item {
-  margin: 0px auto;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .footer__link_active {
@@ -351,8 +338,7 @@
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 240px;
+  justify-content: flex-end;
   height: 48px;
   list-style: none;
   gap: 48px;

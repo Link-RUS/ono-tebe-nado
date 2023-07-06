@@ -45,10 +45,6 @@
 }
 
 .header__logo-image {
-  background-image: url(../images/logo-black.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
   height: 105px;
   width: 148px;
 }

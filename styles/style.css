@@ -185,9 +185,6 @@
   flex-grow: 1;
   width: 40%;
   position: relative;
-  z-index: 0;
-  position: relative;
-  z-index: 2;
 }
 
 .card_type_film {

@@ -41,10 +41,14 @@
 .header__logo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .header__logo-image {
+  background-image: url(../images/logo-black.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   height: 105px;
   width: 148px;
 }
@@ -260,6 +264,8 @@
 
 .about__logo {
   display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 120px;
   border: 1px solid #000;
   background-color: #000;
@@ -268,8 +274,6 @@
   width: 240px;
   height: 240px;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
 }
 
 .about__logo-image {

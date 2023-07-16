@@ -5,7 +5,6 @@
 }
 
 .header__menu {
-  display: flex;
   margin-top: 43px;
   margin-right: 0px;
   margin-bottom: 45px;
@@ -178,11 +177,7 @@
 }
 
 .lots__card-list-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   min-height: 450px;
-  flex-grow: 1;
   width: 40%;
   position: relative;
 }
@@ -221,16 +216,11 @@
 }
 
 .card-link {
-  display: flex;
   color: #fff;
 }
 
 .card {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
-  flex-basis: 100%;
   min-height: 450px;
 }
 
@@ -247,8 +237,6 @@
 }
 
 .card__text {
-  display: grid;
-  align-items: end;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -289,7 +277,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 120px;
-  border: 1px solid #000;
   background-color: #000;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -304,8 +291,6 @@
 }
 
 .about__title {
-  display: flex;
-  justify-content: left;
   margin: 100px auto 100px -5px;
   /* align-items: center; */
   grid-column: 2 / 3;
